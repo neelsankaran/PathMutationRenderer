@@ -1,10 +1,12 @@
 ## Showcase
+<img width="1707" height="1215" alt="image" src="https://github.com/user-attachments/assets/02428287-054d-4be4-b61b-3c81d1ce5470" />
+<img width="1641" height="1228" alt="image" src="https://github.com/user-attachments/assets/a14f38ab-8e34-4f3b-a3ea-b146cf7a0bf8" />
 
 <table align="center">
   <tr>
     <td align="center">
       <img
-        src="https://github.com/user-attachments/assets/abf0fc27-36ea-4bca-b5b2-da00af051cff"
+        src="https://github.com/user-attachments/assets/02428287-054d-4be4-b61b-3c81d1ce5470"
         width="400"
         height="400"
         style="object-fit: cover;"
@@ -15,14 +17,13 @@
 
     <td align="center">
       <img
-        src="https://github.com/user-attachments/assets/4c080685-c172-49f2-af87-f6a793d2043d"
+        src="https://github.com/user-attachments/assets/a14f38ab-8e34-4f3b-a3ea-b146cf7a0bf8"
         width="400"
         height="400"
         style="object-fit: cover;"
       />
       <br />
-      <b>Path Mutation Visualization</b><br />
-      <sub>Original path (green), mutation (red)</sub>
+      <b>Individual Ray Traces Highlighted</b><br />
     </td>
   </tr>
 </table>
@@ -39,7 +40,7 @@
         style="object-fit: cover;"
       />
       <br />
-      <b>Individual Ray Traces</b>
+      <b>Path Mutation Visualization</b>
     </td>
 
     <td align="center">
@@ -50,8 +51,7 @@
         style="object-fit: cover;"
       />
       <br />
-      <b>Path Mutation Visualization</b><br />
-      <sub>Original path (green), mutation (red)</sub>
+      <b>Path Mutation Visualization(Original Path in Green, Mutation in Red)</b><br />
     </td>
   </tr>
 </table>
