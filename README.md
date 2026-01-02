@@ -58,7 +58,7 @@
     <td align="center">
       <img src="https://github.com/user-attachments/assets/28f647d1-b9d3-4fcd-90fe-f936dd1db5ba" width="240" />
       <br />
-      <sub><b>Resampling mutation</b></sub>
+      <sub><b>No Mutations, Just Resampling</b></sub>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/d68f2817-9ef5-4ff9-80c2-792013398490" width="240" />
