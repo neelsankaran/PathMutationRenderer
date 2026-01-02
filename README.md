@@ -1,9 +1,4 @@
 ## Showcase
-<img width="785" height="577" alt="individual_ray_traces" src="https://github.com/user-attachments/assets/6b118673-ab03-40f8-af3a-16da814107e2" />
-<img width="830" height="663" alt="individual_ray_traces_highlighted" src="https://github.com/user-attachments/assets/02699560-f05d-40c5-9122-7ed8a493de77" />
-<img width="1047" height="794" alt="path_mutation_highliighted" src="https://github.com/user-attachments/assets/c47df25a-6208-4ef2-8263-7b8439b93490" />
-<img width="953" height="770" alt="path_mutation" src="https://github.com/user-attachments/assets/63e08d4a-5cfc-427e-ae8f-6a8d0ca32b0f" />
-
 <table align="center">
   <!-- Row 1: Ray traced paths -->
   <tr>
