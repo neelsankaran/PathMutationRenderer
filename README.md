@@ -1,6 +1,9 @@
 ## Showcase
 <img width="1707" height="1215" alt="image" src="https://github.com/user-attachments/assets/02428287-054d-4be4-b61b-3c81d1ce5470" />
 <img width="1641" height="1228" alt="image" src="https://github.com/user-attachments/assets/a14f38ab-8e34-4f3b-a3ea-b146cf7a0bf8" />
+<img width="2197" height="1622" alt="image" src="https://github.com/user-attachments/assets/bd62e0ac-2aa4-477a-bd1b-7fe676439155" />
+<img width="2141" height="1520" alt="image" src="https://github.com/user-attachments/assets/e51dbd67-ca33-4d07-b5f7-14740022389f" />
+
 
 <table align="center">
   <tr>
@@ -34,7 +37,7 @@
   <tr>
     <td align="center">
       <img
-        src="https://github.com/user-attachments/assets/f4170a84-9fd3-4fef-8683-0e6b7c378d76"
+        src="https://github.com/user-attachments/assets/bd62e0ac-2aa4-477a-bd1b-7fe676439155"
         width="400"
         height="400"
         style="object-fit: cover;"
@@ -45,7 +48,7 @@
 
     <td align="center">
       <img
-        src="https://github.com/user-attachments/assets/c416e150-d078-48c4-866d-6f24bc313e5f"
+        src="https://github.com/user-attachments/assets/e51dbd67-ca33-4d07-b5f7-14740022389f"
         width="400"
         height="400"
         style="object-fit: cover;"
