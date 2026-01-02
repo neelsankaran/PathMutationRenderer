@@ -1,0 +1,9 @@
+{
+  "name": "pathmutation",
+  "version": "0.1.0",
+  "builtin-baseline": "d2452281016c6d77b6ef199d599d9929eafe4807",
+  "dependencies": [
+    "assimp",
+    "glm"
+  ]
+}
