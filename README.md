@@ -1,60 +1,52 @@
 ## Showcase
-<img width="1707" height="1215" alt="image" src="https://github.com/user-attachments/assets/02428287-054d-4be4-b61b-3c81d1ce5470" />
-<img width="1641" height="1228" alt="image" src="https://github.com/user-attachments/assets/a14f38ab-8e34-4f3b-a3ea-b146cf7a0bf8" />
-<img width="2197" height="1622" alt="image" src="https://github.com/user-attachments/assets/bd62e0ac-2aa4-477a-bd1b-7fe676439155" />
-<img width="2141" height="1520" alt="image" src="https://github.com/user-attachments/assets/e51dbd67-ca33-4d07-b5f7-14740022389f" />
-
+<img width="785" height="577" alt="individual_ray_traces" src="https://github.com/user-attachments/assets/6b118673-ab03-40f8-af3a-16da814107e2" />
+<img width="830" height="663" alt="individual_ray_traces_highlighted" src="https://github.com/user-attachments/assets/02699560-f05d-40c5-9122-7ed8a493de77" />
+<img width="1047" height="794" alt="path_mutation_highliighted" src="https://github.com/user-attachments/assets/c47df25a-6208-4ef2-8263-7b8439b93490" />
+<img width="953" height="770" alt="path_mutation" src="https://github.com/user-attachments/assets/63e08d4a-5cfc-427e-ae8f-6a8d0ca32b0f" />
 
 <table align="center">
+  <!-- Row 1: Ray traced paths -->
   <tr>
     <td align="center">
       <img
-        src="https://github.com/user-attachments/assets/02428287-054d-4be4-b61b-3c81d1ce5470"
+        src="https://github.com/user-attachments/assets/6b118673-ab03-40f8-af3a-16da814107e2"
         width="400"
-        height="400"
-        style="object-fit: cover;"
       />
-      <br />
-      <b>Individual Ray Traces</b>
     </td>
-
     <td align="center">
       <img
-        src="https://github.com/user-attachments/assets/a14f38ab-8e34-4f3b-a3ea-b146cf7a0bf8"
+        src="https://github.com/user-attachments/assets/02699560-f05d-40c5-9122-7ed8a493de77"
         width="400"
-        height="400"
-        style="object-fit: cover;"
       />
-      <br />
-      <b>Individual Ray Traces Highlighted</b><br />
     </td>
   </tr>
-</table>
+  <tr>
+    <td align="center" colspan="2">
+      <b>Ray Traced Paths Visualized</b>
+    </td>
+  </tr>
 
-<br />
+  <!-- Spacer row -->
+  <tr><td colspan="2"><br /></td></tr>
 
-<table align="center">
+  <!-- Row 2: Path mutations -->
   <tr>
     <td align="center">
       <img
-        src="https://github.com/user-attachments/assets/bd62e0ac-2aa4-477a-bd1b-7fe676439155"
+        src="https://github.com/user-attachments/assets/63e08d4a-5cfc-427e-ae8f-6a8d0ca32b0f"
         width="400"
-        height="400"
-        style="object-fit: cover;"
       />
-      <br />
-      <b>Path Mutation Visualization</b>
     </td>
-
     <td align="center">
       <img
-        src="https://github.com/user-attachments/assets/e51dbd67-ca33-4d07-b5f7-14740022389f"
+        src="https://github.com/user-attachments/assets/c47df25a-6208-4ef2-8263-7b8439b93490"
         width="400"
-        height="400"
-        style="object-fit: cover;"
       />
-      <br />
-      <b>Path Mutation Visualization(Original Path in Green, Mutation in Red)</b><br />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <b>Path Mutations Visualized (Original Path in Green, Mutation in Red)</b>
     </td>
   </tr>
 </table>
@@ -101,24 +93,33 @@ git clone https://github.com/microsoft/vcpkg.git
 cd vcpkg
 bootstrap-vcpkg.bat   # Windows
 ./bootstrap-vcpkg.sh  # Linux
+```
 
 ### 2. Set the vcpkg root path
 Set the **VCPKG_ROOT** environment variable to the directory where vcpkg was cloned.
+```bash
 set VCPKG_ROOT=C:\path\to\vcpkg   # Windows
 export VCPKG_ROOT=/path/to/vcpkg  # Linux
+```
 
 ### 3. Configure the project
 From the project root (the directory containing CMakeLists.txt and vcpkg.json):
+```bash
 cmake -S . -B build ^
   -DCMAKE_TOOLCHAIN_FILE=%VCPKG_ROOT%\scripts\buildsystems\vcpkg.cmake  # Windows
 cmake -S . -B build \
   -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake   # Linux
+```
 
 ### 4. Build
+```bash
 cmake --build build --config Release
+```
 
 ### 5. Run
+```bash
 build\Release\renderer.exe
+```
 
 ### 6. Change obj file paths
 You may additionally want to adjust the paths in main.cpp to reflect the location of your desired boject files. The showcase scene was sourced from: https://github.com/vaffeine/vulkano-raytracing/blob/master/assets/cornell-box.obj.
